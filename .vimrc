@@ -29,7 +29,6 @@ set scrolloff=10
 set colorcolumn=80
 
 syntax enable
-colorscheme nord
 
 set tabstop=2
 set shiftwidth=2
