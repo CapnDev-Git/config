@@ -25,7 +25,7 @@ set laststatus=2
 set ruler
 set visualbell
 set rnu
-set scrolloff=10
+set scrolloff=20
 set colorcolumn=80
 
 syntax enable
@@ -33,6 +33,7 @@ syntax enable
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
+set expandtab
 set autoindent
 set smartindent
 
@@ -41,3 +42,12 @@ set hlsearch
 
 set background=dark
 set autoread
+set autowrite
+set ignorecase
+set hidden
+
+set backspace=indent,eol,start
+set list
+set listchars=trail:.,eol:$
+
+autocmd filetype make setlocal noexpandtab
